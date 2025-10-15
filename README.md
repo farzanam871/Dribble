@@ -266,5 +266,6 @@ design.html
 ## OUTPUT:
 ![alt text](<Screenshot 2025-10-15 234523.png>)
 
+
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
