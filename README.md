@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:15.10.2025
+## Date:16.10.2025
 
 ## AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
@@ -189,7 +189,9 @@ design.html
       <!-- Repeat your image cards -->
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="Screenshot 2025-10-15 191750.png" class="card-img-top" alt="">
+          <img src="Dribble/Screenshot 202
+          
+          5-10-15 190925.png" class="card-img-top" alt="">
           <div class="card-body">
             <h6 class="card-title">- Ferrari 296 GTB 
 </h6>
@@ -200,7 +202,7 @@ design.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="Screenshot 2025-10-15 190925.png" class="card-img-top" alt="">
+          <img src="Dribble/Screenshot 2025-10-15 191048.png" class="card-img-top" alt="">
           <div class="card-body">
             <h6 class="card-title">- Ferrari Purosangue
 </h6>
@@ -210,7 +212,7 @@ design.html
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="Screenshot 2025-10-15 191048.png" class="card-img-top" alt="">
+          <img src="Dribble/Screenshot 2025-10-15 191532.png" class="card-img-top" alt="">
           <div class="card-body">
             <h6 class="card-title">- Ferrari First Electric Car
 </h6>
@@ -221,7 +223,7 @@ design.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="Screenshot 2025-10-15 191532.png" class="card-img-top" alt="">
+          <img src="Dribble/Screenshot 2025-10-15 191628.png" class="card-img-top" alt="">
           <div class="card-body">
             <h6 class="card-title">- Ferrari Roma 
 </h6>
@@ -232,7 +234,7 @@ design.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="Screenshot 2025-10-15 191628.png" class="card-img-top" alt="">
+          <img src="Dribble/Screenshot 2025-10-15 191750.png" class="card-img-top" alt="">
           <div class="card-body">
             <h6 class="card-title">- Ferrari Monza SP1 
 </h6>
@@ -243,7 +245,7 @@ design.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="Screenshot 2025-10-15 191833.png" class="card-img-top" alt="">
+          <img src="Dribble/Screenshot 2025-10-15 191833.png" class="card-img-top" alt="">
           <div class="card-body">
             <h6 class="card-title">- Ferrari Daytona SP3
 </h6>
@@ -264,8 +266,8 @@ design.html
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-10-15 234523.png>)
 
+![alt text](<Screenshot 2025-10-15 234523.png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
