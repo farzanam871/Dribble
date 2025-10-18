@@ -27,240 +27,137 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ```
-design.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exclusive Designs</title>
+  <title>Dribbble Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: #0a0a0a;
-    }
-
-
-    .navbar {
-      background-color: rgb(155, 26, 65);
-      flex-direction: column;
-      align-items: flex-start;
-      padding-left: 40px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-    }
-
-    .navbar-brand {
-      color: white;
-      font-weight: bold;
-      font-size: 24px;
-    }
-
-    
-    .sub-links {
-      display: flex;
-      gap: 20px;
-      margin-top: 8px;
-    }
-
-    .sub-links a {
-      color: #ccc;
-      text-decoration: none;
-      font-size: 15px;
-      transition: all 0.3s ease;
-    }
-
-    .sub-links a:hover {
-      color: rgb(47, 25, 113);
-      text-decoration: underline;
-    }
-
-    
-    .controls {
-      text-align: center;
-      margin: 25px 0;
-    }
-
-    .controls a {
-      margin: 0 20px;
-      font-size: 18px;
-      color: #6c757d;
-      text-decoration: none;
-      position: relative;
-      transition: all 0.3s ease;
-      font-weight: 500;
-    }
-
-    .controls a::after {
-      content: " ▼";
-      font-size: 12px;
-      color: #6c757d;
-    }
-    .me-4{
-      text-align: right;
-
-    }
-    .controls a:hover {
-      color: #000;
-      border-bottom: 3px solid #9f1941;
-      padding-bottom: 5px;
-    }
-
-    
-    .card img {
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover img {
-      transform: scale(1.05);
-    }
-
-    .card {
-      border: none;
-      box-shadow: 0 4px 8px rgba(157, 83, 83, 0.1);
-      transition: transform 0.3s ease;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .card-title {
-      font-weight: 600;
-      font-size: 15px;
-      color: #b14747;
-    }
-
-    
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #3d2c2c;
-      margin-top: 30px;
-    }
-  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-
-  
-  <nav class="navbar">
-    <div>
-      <a class="navbar-brand" href="#">Ferrari</a>
-      <div class="sub-links">
-        <a href="#">Orders</a>
-        <a href="#">Cart</a>
-        <a href="#">Address</a>
-        <a href="#">Account</a>
+<body class="bg-light vh-100 overflow-hidden d-flex flex-column">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Dribbble</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Shots</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Designers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Teams</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Jobs</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-light btn-sm" type="submit">Search</button>
+        </form>
       </div>
     </div>
   </nav>
-  <div class="me-4">
-   <ul class="nav navbar-nav navbar-right">
-             <li>Sign up  &nbsp;
-                 Sign in
-             </li>
-        </ul>
-        </div>
-</nav>
-
-  <nav class="nav navbar-default bg-danger text-white">
-    <ul class="nav navbar-nav mx-auto py-3">
-        <p class="text-center">Ferrari is the ultimate symbol of personal success and status. <span class="text-light">Ferrari's 2025 lineup includes a range of models, from high-performance hybrid supercars to the brand's first-ever SUV, the Purosangue. Other prominent models include the SF90, the Roma, and the new V12-powered 12Cilindri. </span></p>
-       <li> <button type="button" class="btn btn-primary text-white">Learn More</button>
-        <button type="button" class="btn btn-danger">Sign up</button></li>
-        
-    </ul>
-</nav>
-
-
-  
-  <div class="controls">
-    <a href="#">Scarcity</a>
-    <a href="#">Legacy</a>
-    <a href="#"> elite</a>
+  <div class="bg-dark border-bottom text-center py-1">
+    <h6 class="text-white mb-0">What are you working on?</h6>
+    <small class="text-light">Dribbble is show and tell for designers.</small><br>
+    <button class="btn btn-danger btn-sm mt-1">Sign up</button>
   </div>
-
-  
-  <div class="container mt-4">
-    <div class="row g-4">
-      <!-- Repeat your image cards -->
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="card">
-          <img src="Dribble/Screenshot 202
-          
-          5-10-15 190925.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <h6 class="card-title">- Ferrari 296 GTB 
-</h6>
-            
-          </div>
-        </div>
+  <div class="container border-top py-2 text-center">
+    <div class="d-inline-flex justify-content-center gap-2 flex-wrap">
+      <div class="dropdown">
+        <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Popular
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Popular</a></li>
+          <li><a class="dropdown-item" href="#">New & Noteworthy</a></li>
+          <li><a class="dropdown-item" href="#">Following</a></li>
+        </ul>
       </div>
-
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="card">
-          <img src="Dribble/Screenshot 2025-10-15 191048.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <h6 class="card-title">- Ferrari Purosangue
-</h6>
-            
-          </div>
-        </div> 
+      <div class="dropdown">
+        <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Shots
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">All</a></li>
+          <li><a class="dropdown-item" href="#">Mobile</a></li>
+          <li><a class="dropdown-item" href="#">Web</a></li>
+        </ul>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="card">
-          <img src="Dribble/Screenshot 2025-10-15 191532.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <h6 class="card-title">- Ferrari First Electric Car
-</h6>
-            
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="card">
-          <img src="Dribble/Screenshot 2025-10-15 191628.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <h6 class="card-title">- Ferrari Roma 
-</h6>
-            
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="card">
-          <img src="Dribble/Screenshot 2025-10-15 191750.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <h6 class="card-title">- Ferrari Monza SP1 
-</h6>
-           
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="card">
-          <img src="Dribble/Screenshot 2025-10-15 191833.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <h6 class="card-title">- Ferrari Daytona SP3
-</h6>
-            
-          </div>
-        </div>
+      <div class="dropdown">
+        <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown">Now</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Now</a></li>
+          <li><a class="dropdown-item" href="#">This Week</a></li>
+          <li><a class="dropdown-item" href="#">This Month</a></li>
+        </ul>
       </div>
     </div>
   </div>
+  <div class="container-fluid flex-grow-1 d-flex align-items-center justify-content-center">
+    <div class="row g-2 w-100 justify-content-center px-2">
+      <div class="col-2">
+        <div class="card border-0 shadow-sm text-center">
+          <img src="famous.png" class="card-img-top">
+          <div class="card-body p-1">
+            <small class="fw-semibold d-block">Ferrari 296 GTB</small>
+            <small class="text-muted">7,382 views • 272 likes</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card border-0 shadow-sm text-center">
+            <img src="balkanbrother.jpg" class="card-img-top">
+            <div class="card-body p-1">
+                <small class="fw-semibold d-block">Ferrari Purosangue</small>
+                <small class="text-muted">3,054 views • 500 likes</small>
+            </div>
+        </div>
+    </div>
+      <div class="col-2">
+        <div class="card border-0 shadow-sm text-center">
+          <img src="Mattias.png" class="card-img-top">
+          <div class="card-body p-1">
+            <small class="fw-semibold d-block">Ferrari First Electric Car</small>
+            <small class="text-muted">3,054 views • 500 likes</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card border-0 shadow-sm text-center">
+          <img src="e.png" class="card-img-top">
+          <div class="card-body p-1">
+            <small class="fw-semibold d-block">Ferrari Monza SPT</small>
+            <small class="text-muted">7,432 views • 260 likes</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card border-0 shadow-sm text-center">
+          <img src="image.png" class="card-img-top">
+          <div class="card-body p-1">
+            <small class="fw-semibold d-block">Ferrai Roma</small>
+            <small class="text-muted">8,322 views • 940 likes</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card border-0 shadow-sm text-center">
+          <img src="image1.png" class="card-img-top">
+          <div class="card-body p-1">
+            <small class="fw-semibold d-block">Ferrari Daytona SP3</small>
+            <small class="text-muted">7,342 views • 240 likes</small>
+          </div>
+        </div>
+      </div>
+     
 
-  <footer>
-    <p>© Designed by Fazana M (25013772)</p>
+    </div>
+  </div>
+  <footer class="bg-dark text-light text-center py-1">
+    <small>&copy; 2025 Dribbble | Farzana M (25013772)</small>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 ```
